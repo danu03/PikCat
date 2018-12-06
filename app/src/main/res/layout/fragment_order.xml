@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OrderFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/data_pemilik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Pemilik" />
+
+        <EditText
+            android:id="@+id/nama_p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Nama pemilik" />
+
+        <EditText
+            android:id="@+id/alamat_p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text="Alamat"/>
+
+        <EditText
+            android:id="@+id/telp_p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPhonetic"
+            android:layout_marginBottom="10dp"
+            android:text="No Telp"/>
+
+
+        <TextView
+            android:id="@+id/data_kucing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Kucing" />
+
+        <EditText
+            android:id="@+id/nama_k"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Nama kucing" />
+
+        <EditText
+            android:id="@+id/usia_k"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Usia" />
+
+        <EditText
+            android:id="@+id/gender_k"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="10dp"
+            android:text="Gender" />
+
+        <TextView
+            android:id="@+id/tipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipe Grooming" />
+
+
+        <CheckBox
+            android:id="@+id/checkBox_basah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Basah" />
+
+        <CheckBox
+            android:id="@+id/checkBox_kering"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kering" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="15dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_tambah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="@color/colorWhite"
+                android:text="Tambah"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_pesan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="@color/colorWhite"
+                android:text="Pesan"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
