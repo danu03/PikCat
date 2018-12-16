@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "641946103030",
+    "firebase_url": "https://pikcat-42c2e.firebaseio.com",
+    "project_id": "pikcat-42c2e",
+    "storage_bucket": "pikcat-42c2e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641946103030:android:9461b1c363c656d9",
+        "android_client_info": {
+          "package_name": "com.danusuhendra.pikcat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641946103030-5qrkh2l0qo65u5u9bmpsg959h56d8cii.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.danusuhendra.pikcat",
+            "certificate_hash": "36495bd01be30eac1756502448987a555db0604b"
+          }
+        },
+        {
+          "client_id": "641946103030-17n5frcjrg1vs9itpgasbq8v6c9fiqvr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFTrN9YSPgat4L37jAh2ZgKAkrgbElyiQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641946103030-17n5frcjrg1vs9itpgasbq8v6c9fiqvr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

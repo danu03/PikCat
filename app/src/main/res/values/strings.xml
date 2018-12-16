@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PikCat</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_order">Order</string>
+    <string name="nav_history">History</string>
+    <string name="nav_akun">Akun</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pikcat">PikCat</string>
+    <string name="todo">TODO</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="username">Username</string>
+    <string name="don_t_have_an_account">Don’t have an account?</string>
+    <string name="create_now">Create Now</string>
+    <string name="email">Email</string>
+</resources>
