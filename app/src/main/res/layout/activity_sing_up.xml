@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignIn">
+    tools:context=".SingUp">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -19,6 +19,7 @@
         android:background="@drawable/main_background"
         app:srcCompat="@drawable/main_background" />
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,8 +28,26 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="3dp"
         android:layout_marginLeft="3dp"
-        android:layout_marginTop="238dp"
+        android:layout_marginTop="182dp"
         android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/activity_horizontal_margin">
+
+            <AutoCompleteTextView
+                android:id="@+id/tv_usr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_action_user"
+                android:hint="@string/username"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/color_ipt" />
+
+        </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
@@ -42,9 +61,27 @@
                 android:drawableRight="@drawable/ic_action_email"
                 android:hint="@string/email"
                 android:inputType="textEmailAddress"
-                android:textColor="@color/color_ipt"
                 android:maxLines="1"
-                android:singleLine="true" />
+                android:singleLine="true"
+                android:textColor="@color/color_ipt" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/activity_horizontal_margin">
+
+            <AutoCompleteTextView
+                android:id="@+id/tv_no_telp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_action_telp"
+                android:hint="@string/no_telp"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/color_ipt" />
 
         </android.support.design.widget.TextInputLayout>
 
@@ -60,82 +97,61 @@
                 android:drawableRight="@drawable/ic_action_pass"
                 android:hint="@string/password"
                 android:inputType="textPassword"
-                android:textColor="@color/color_ipt"
                 android:maxLines="1"
-                android:singleLine="true" />
+                android:singleLine="true"
+                android:textColor="@color/color_ipt" />
 
         </android.support.design.widget.TextInputLayout>
 
         <Button
-            android:id="@+id/btn_signin"
+            android:id="@+id/btn_sign_up"
+            style="@style/Widget.AppCompat.Button"
             android:layout_width="match_parent"
             android:layout_height="53dp"
             android:layout_marginHorizontal="@dimen/activity_horizontal_margin2"
             android:layout_marginVertical="@dimen/activity_horizontal_margin"
             android:background="@drawable/btn_backgroun"
-            android:text="@string/sign_in"
+            android:text="@string/sign_up"
             android:textColor="@color/color_btn"
-            android:textSize="@dimen/font_btn"
-            style="@style/Widget.AppCompat.Button"/>
+            android:textSize="@dimen/font_btn" />
+
 
     </LinearLayout>
 
-    <ImageButton
-        android:id="@+id/imageButton8"
-        android:layout_width="57dp"
-        android:layout_height="57dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="187dp"
-        android:layout_marginRight="187dp"
-        android:layout_marginBottom="127dp"
-        android:background="@drawable/facebook_icon" />
-
-    <ImageButton
-        android:id="@+id/imageButton9"
-        android:layout_width="57dp"
-        android:layout_height="57dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="103dp"
-        android:layout_marginRight="103dp"
-        android:layout_marginBottom="127dp"
-        android:background="@drawable/google_icon" />
-
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="155dp"
-        android:layout_height="wrap_content"
+        android:layout_width="179dp"
+        android:layout_height="39dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="60dp"
-        android:layout_marginLeft="60dp"
-        android:layout_marginBottom="91dp"
-        android:text="@string/don_t_have_an_account" />
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginBottom="77dp"
+        android:text="@string/ready" />
 
     <TextView
-        android:id="@+id/txt_create_now"
+        android:id="@+id/txt_sign_in"
         android:layout_width="155dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="208dp"
-        android:layout_marginLeft="208dp"
-        android:layout_marginBottom="90dp"
-        android:text="@string/create_now"
-        android:textStyle="bold"/>
+        android:layout_marginStart="219dp"
+        android:layout_marginLeft="219dp"
+        android:layout_marginBottom="96dp"
+        android:text="@string/sign_in"
+        android:textStyle="bold" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/imageView6"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/textView3"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="-60dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
         android:layout_marginTop="0dp"
         android:scaleType="fitStart"
         app:srcCompat="@drawable/logo" />

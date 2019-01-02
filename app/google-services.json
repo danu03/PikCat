@@ -23,6 +23,14 @@
           }
         },
         {
+          "client_id": "641946103030-fm6dq6i2fvq6pdj5390t8eofr67sgge2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.danusuhendra.pikcat",
+            "certificate_hash": "43c229f02e23a30689799775a68caa5e30f6e8f8"
+          }
+        },
+        {
           "client_id": "641946103030-17n5frcjrg1vs9itpgasbq8v6c9fiqvr.apps.googleusercontent.com",
           "client_type": 3
         }

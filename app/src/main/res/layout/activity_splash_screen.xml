@@ -17,20 +17,6 @@
         tools:layout_editor_absoluteY="0dp"
         android:contentDescription="@string/todo" />
 
-    <TextView
-        android:id="@+id/txt_splash"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="89dp"
-        android:layout_marginLeft="89dp"
-        android:layout_marginTop="211dp"
-        android:fontFamily="sans-serif"
-        android:text="@string/pikcat"
-        android:textSize="70sp" />
-
     <ProgressBar
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyle"
@@ -39,5 +25,16 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="80dp"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/progressBar"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-182dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/logo1" />
 
 </RelativeLayout>

@@ -19,8 +19,34 @@
                                   <option name="values">
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
-                                      <entry key="imageAsset" value="D:\Multimedia &amp; Design\Adobe Ilustrator\PikCat\pngV2\icon&amp;backgroun_icon\password_icon.png" />
-                                      <entry key="outputName" value="ic_action_pass" />
+                                      <entry key="imageAsset" value="D:\Multimedia &amp; Design\Adobe Ilustrator\PikCat\pngV2\icon&amp;backgroun_icon\user_icon-8.png" />
+                                      <entry key="outputName" value="ic_action_user" />
+                                    </map>
+                                  </option>
+                                </PersistentState>
+                              </value>
+                            </entry>
+                            <entry key="launcher">
+                              <value>
+                                <PersistentState>
+                                  <option name="children">
+                                    <map>
+                                      <entry key="foregroundImage">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="scalingPercent" value="163" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                    </map>
+                                  </option>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="foregroundImage" value="D:\Multimedia &amp; Design\Adobe Ilustrator\PikCat\pngV2\logo03.png" />
                                     </map>
                                   </option>
                                 </PersistentState>
